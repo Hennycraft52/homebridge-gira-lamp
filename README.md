@@ -8,7 +8,7 @@
             "accessory": "LampV1",
             "name": "Lampenname (Lampname)",
             "ip": "Ip (from gira homeserver)",
-            "shutterId": "device id",
+            "lampId": "device id",
             "username": "username",
             "password": "passwort"
 }
