@@ -4,7 +4,7 @@ const Lamp = require('./lib/lamp');
 module.exports = function(homebridge) {
     Service = homebridge.hap.Service;
     Characteristic = homebridge.hap.Characteristic;
-    homebridge.registerAccessory('homebridge-gira-lamp', 'Lamp', LampAccessory);
+    homebridge.registerAccessory('homebridge-gira-lamp', 'LampV1', LampAccessory);
 };
 
 function LampAccessory(log, config) {
